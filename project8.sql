@@ -1,0 +1,12 @@
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2011' and full_time_position ='Y' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2012' and full_time_position ='Y' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2013' and full_time_position ='Y' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2014' and full_time_position ='Y' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2015' and full_time_position ='Y' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2016' and full_time_position ='Y' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2011' and full_time_position ='N' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2012' and full_time_position ='N' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2013' and full_time_position ='N' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2014' and full_time_position ='N' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2015' and full_time_position ='N' group by job_title,year order by temp desc;
+select job_title,avg(prevailing_wage)as temp,year from h1b_applications where year='2016' and full_time_position ='N' group by job_title,year order by temp desc;
